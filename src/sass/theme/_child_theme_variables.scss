@@ -2,6 +2,47 @@
 // To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
 // Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
 
+// Text Colors
+$textDefault: rgb(196, 207, 222);
+$white: #FFF;
+$headingsDefault: $white;
+$headingsAccent: #A25A1A;
+$secondary: $textDefault;
+$linkText: $textDefault;
+$orange: #FA9E0D;
 
-$purple: #5533ff; // Thats a sample how you could change a BootStrap variable.
-$primary: $purple;  // Once we've changed the value, we'll also make it the primary brand color.
+// Hover Colors
+$primaryLinkHover: #FA9E0D;
+
+// Background Colors
+$primary-bg: #212428;
+$primary: $primary-bg;
+$offcanvas-bg-color: #183A6A;
+
+// Typeography
+$font-size-base: 1rem; //16px
+$h1-font-size: $font-size-base * 3; //48px
+$h2-font-size: $font-size-base * 2.5; //40px
+$h3-font-size: $font-size-base * 1.875; //30px
+$h4-font-size: $font-size-base * 1.5; //24px
+$h5-font-size: $font-size-base * 1.3125; //21px
+$h6-font-size: $font-size-base * 1.125; // 18px
+
+$line-height-base: 2; //25px
+
+$spacer: 40px; //space between sections
+
+$font-family-base: 'Poppins', sans-serif;
+$headings-font-family: 'Montserrat', sans-serif;
+$headings-line-height: 1.2;
+$headings-font-weight: bold;
+$headings-margin-bottom: 26px;
+$headings-color: $headingsDefault;
+
+$body-color: $textDefault;
+
+$acf-block-spacing: 50px;
+
+$link-color: $headingsDefault;
+$link-decoration: none;
+$link-hover-color: $primaryLinkHover;
