@@ -1,0 +1,20 @@
+#wrapper-footer-full {
+    background-color: $primary-bg;
+
+    #block-8, #block-9 {
+        display: flex;
+        justify-content: center;
+
+        h4 {
+            color: $headingsAccent;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+    }
+}
+
+#wrapper-footer {
+    text-align: center;
+}

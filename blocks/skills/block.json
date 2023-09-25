@@ -1,0 +1,15 @@
+{
+    "name": "acf/skills",
+    "title": "Skills",
+    "description": "A custom skills block used to display my professional and technical skills",
+    "category": "formatting",
+    "icon": "editor-ol",
+    "keywords": ["faqs","frequently asked questions"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "skills.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

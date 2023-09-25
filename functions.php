@@ -101,15 +101,15 @@ function cc_mime_types($mimes) {
   add_filter('upload_mimes', 'cc_mime_types');
 
   /** Register ACF Blocks */
-  function proshield_register_acf_blocks() {
+  function portfolio_register_acf_blocks() {
     /**
      * We register our block's with WordPress's handy
      * register_block_type();
      *
      * @link https://developer.wordpress.org/reference/functions/register_block_type/
      */
-    register_block_type( __DIR__ . '/blocks/services' );
+    register_block_type( __DIR__ . '/blocks/skills' );
 
 }
-// Here we call our proshield_register_acf_block() function on init.
-add_action( 'init', 'proshield_register_acf_blocks' );
+// Here we call our portfolio_register_acf_block() function on init.
+add_action( 'init', 'portfolio_register_acf_blocks' );
