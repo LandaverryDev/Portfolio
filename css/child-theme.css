@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #FFF;
-  --bs-link-hover-color: #FA9E0D;
+  --bs-link-color: rgb(196, 207, 222);
+  --bs-link-hover-color: #20A4F3;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -15043,6 +15043,10 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
+.navbar-nav .nav-link {
+  color: rgb(196, 207, 222);
+}
+
 #skills-block {
   margin-top: 50px;
 }
@@ -15077,6 +15081,28 @@ figure.woocommerce-product-gallery__wrapper {
   border-radius: 10px;
 }
 
+#projects-block {
+  background-color: transparent;
+}
+#projects-block .project {
+  box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+#projects-block .project-body {
+  color: rgb(196, 207, 222);
+  padding-top: 16px;
+  border-top: 2px solid rgb(26, 29, 35);
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 30.4px;
+}
+#projects-block .project-body p {
+  margin-bottom: 0;
+}
+
 #wrapper-footer-full {
   background-color: #212428;
 }
@@ -15091,6 +15117,10 @@ figure.woocommerce-product-gallery__wrapper {
   list-style-type: none;
   padding-left: 0;
 }
+#wrapper-footer-full #block-7 {
+  align-items: center;
+  display: flex;
+}
 
 #wrapper-footer {
   text-align: center;
@@ -15104,12 +15134,29 @@ figure.woocommerce-product-gallery__wrapper {
   color: #20A4F3;
 }
 
+.light-title {
+  font-weight: 300;
+  font-size: 16px;
+}
+
 .text-default {
   color: rgb(196, 207, 222);
 }
 
 mark, .mark {
   padding: 0;
+}
+
+.wp-social-link {
+  margin-left: 1em;
+  border: 2px solid #212428;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+}
+
+.wp-social-link-instagram, .wp-social-link-linkedin, .wp-social-link-github {
+  background-color: #212428 !important;
 }
 
 .wpforms-block-0829cfdf-8004-472f-afa3-8f1e9b2274fa .wpforms-field-container {

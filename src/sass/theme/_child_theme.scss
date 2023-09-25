@@ -6,12 +6,29 @@
     color: $headingsAccent;
 }
 
+.light-title {
+    font-weight: 300;
+    font-size: 16px;
+}
+
 .text-default {
     color: $textDefault;
 }
 
 mark {
     padding: 0;
+}
+
+.wp-social-link {
+    margin-left: 1em;
+    border: 2px solid #212428;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+}
+
+.wp-social-link-instagram, .wp-social-link-linkedin, .wp-social-link-github  {
+    background-color: $primary-bg!important;
 }
 
 .wpforms-block-0829cfdf-8004-472f-afa3-8f1e9b2274fa {

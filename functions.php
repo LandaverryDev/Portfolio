@@ -109,6 +109,8 @@ function cc_mime_types($mimes) {
      * @link https://developer.wordpress.org/reference/functions/register_block_type/
      */
     register_block_type( __DIR__ . '/blocks/skills' );
+	register_block_type( __DIR__ . '/blocks/projects' );
+
 
 }
 // Here we call our portfolio_register_acf_block() function on init.

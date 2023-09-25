@@ -38,3 +38,27 @@
         }
     }
 }
+
+#projects-block {
+    background-color: transparent;
+
+    .project {
+        box-shadow:$box-shadow;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 2em;
+    }
+
+    .project-body {
+        color: $textDefault;
+        padding-top: 16px;
+        border-top: 2px solid rgb(26, 29, 35);
+        font-weight: 400;
+        font-family: $font-family-base;
+        line-height: 30.4px;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -9,6 +9,7 @@
 @import "assets/underscores";                            // <------- Underscores media styles
 
 // Any additional imported files //
+@import "theme/header";                             // <------- Add your styles into this file
 @import "theme/acf_blocks";                             // <------- Add your styles into this file
 @import "theme/footer";                             // <------- Add your styles into this file
 @import "theme/child_theme";                             // <------- Add your styles into this file

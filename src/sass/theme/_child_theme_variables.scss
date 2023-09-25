@@ -12,7 +12,7 @@ $linkText: $textDefault;
 $orange: #FA9E0D;
 
 // Hover Colors
-$primaryLinkHover: #FA9E0D;
+$primaryLinkHover: $headingsAccent;
 
 // Background Colors
 $primary-bg: #212428;
@@ -47,6 +47,6 @@ $body-color: $textDefault;
 
 $acf-block-spacing: 50px;
 
-$link-color: $headingsDefault;
+$link-color: $textDefault;
 $link-decoration: none;
 $link-hover-color: $primaryLinkHover;
