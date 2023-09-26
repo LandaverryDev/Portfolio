@@ -15110,6 +15110,11 @@ figure.woocommerce-product-gallery__wrapper {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  #wrapper-footer-full #block-8, #wrapper-footer-full #block-9 {
+    justify-content: flex-start;
+  }
+}
 #wrapper-footer-full #block-8 h4, #wrapper-footer-full #block-8 .h4, #wrapper-footer-full #block-9 h4, #wrapper-footer-full #block-9 .h4 {
   color: #20A4F3;
 }
@@ -15173,6 +15178,24 @@ mark, .mark {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 14px;
+}
+
+.erick-img {
+  order: 1;
+}
+@media screen and (max-width: 991px) {
+  .erick-img {
+    order: 12;
+  }
+}
+
+.about-col {
+  order: 12;
+}
+@media screen and (max-width: 991px) {
+  .about-col {
+    order: 1;
+  }
 }
 
 .has-blue-color,

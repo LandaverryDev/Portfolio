@@ -5,6 +5,10 @@
         display: flex;
         justify-content: center;
 
+        @media screen and (max-width: 768px)  {
+            justify-content: flex-start;
+        }
+
         h4 {
             color: $headingsAccent;
         }

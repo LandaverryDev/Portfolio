@@ -50,3 +50,19 @@ mark {
 
     }
 }
+
+.erick-img {
+    
+    order: 1;
+    @media screen and (max-width: 991px)  {
+        order:12;
+    }
+}
+
+.about-col {
+    order: 12;
+
+    @media screen and (max-width: 991px)  {
+        order:1;
+    }
+}
