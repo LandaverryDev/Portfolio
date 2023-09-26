@@ -1,0 +1,15 @@
+{
+    "name": "acf/resume",
+    "title": "Resume",
+    "description": "A custom acf block used to display my resume",
+    "category": "formatting",
+    "icon": "editor-ol",
+    "keywords": ["resume","skills"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "resume.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

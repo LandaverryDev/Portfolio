@@ -110,7 +110,7 @@ function cc_mime_types($mimes) {
      */
     register_block_type( __DIR__ . '/blocks/skills' );
 	register_block_type( __DIR__ . '/blocks/projects' );
-
+	register_block_type( __DIR__ . '/blocks/resume' );
 
 }
 // Here we call our portfolio_register_acf_block() function on init.
