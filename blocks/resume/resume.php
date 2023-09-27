@@ -35,24 +35,23 @@ if ( ! empty( $block['className'] ) ) {
           <div class="col-lg-12">
             <!-- Nav Items -->
             <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="professional-experience-tab" data-bs-toggle="tab" href="#professional-experience" role="tab" aria-controls="professional-experience" aria-selected="false">Professional Experience</a>
+              </li>
 
               <li class="nav-item">
                 <a class="nav-link" id="technical-tab" data-bs-toggle="tab" href="#technical" role="tab" aria-controls="technical" aria-selected="false">technical Skills</a>
               </li>
+
+
               <li class="nav-item">
-                <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="interview-tab" data-bs-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">interview</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="education-tab" data-bs-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">education</a>
+                <a class="nav-link " id="education-tab" data-bs-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">education</a>
               </li>
             </ul>
 
             <div class="rn-nav-content tab-content" id="myTabContents">
 
-              <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
+              <div class="tab-pane show fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
                 <div class="personal-experience-inner mt--40">
                   <div class="row">
                 
@@ -128,7 +127,7 @@ if ( ! empty( $block['className'] ) ) {
                                     $technical_experience_rating = get_sub_field('technical_experience_rating');
                                     ?>
 
-                                    <div class="progress-charts col-6">
+                                    <div class="progress-charts col-md-6">
                                         <h6 class="heading heading-h6"><?php echo $technical_skill_name;?></h6>
                                         <div class="progress">
                                             <div class="progress-bar wow fadeInLeft animated" role="progressbar" style="width: <?php echo $technical_experience_rating;?>%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
@@ -150,222 +149,78 @@ if ( ! empty( $block['className'] ) ) {
                 </div>
               </div>
 
-              <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
-                <div class="personal-experience-inner mt--40">
-                  <div class="row">
-                    <div class="col-lg-6 col-md-12 col-12">
-                      <div class="content">
-                        <span class="subtitle">2007 - 2010</span>
-                        <h4 class="maintitle">Education Quality</h4>
-                        <div class="experience-list">
-                          <div class="resume-single-list">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Personal Portfolio April Fools</h4>
-                                  <span>University of DVI (1997 - 2001)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.30/5</span>
-                                </div>
-                              </div>
-                              <p class="description">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div class="resume-single-list">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4> Examples Of Personal Portfolio</h4>
-                                  <span>College of Studies (2000 - 2002)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.50/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div class="resume-single-list">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Tips For Personal Portfolio</h4>
-                                  <span>University of Studies (1997 - 2001)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.80/5</span>
-                                </div>
-                              </div>
-                              <p class="description"> If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                      <div class="content">
-                        <span class="subtitle">2007 - 2010</span>
-                        <h4 class="maintitle">Job Experience</h4>
-                        <div class="experience-list">
-                          <div class="resume-single-list">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Diploma in Web Development</h4>
-                                  <span>BSE In CSE (2004 - 2008)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.70/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div class="resume-single-list">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>The Personal Portfolio Mystery</h4>
-                                  <span>Job at Rainbow-Themes (2008 - 2016)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.95/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div class="resume-single-list">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Diploma in Computer Science</h4>
-                                  <span>Works at Plugin Development (2016 - 2020)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>5.00/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
+
               
              
-              <div class="tab-pane fade" id="interview" role="tabpanel" aria-labelledby="interview-tab">
+              <div class="tab-pane fade show active" id="professional-experience" role="tabpanel" aria-labelledby="professional-experience-tab">
                 <div class="personal-experience-inner mt--40">
                   <div class="row">
-                    
+                  <h4 class="maintitle">Professional Experience</h4>
+                  <?php
+
+                    // Check rows existexists.
+                    if( have_rows('experience') ):
+
+                        // Loop through rows.
+                        while( have_rows('experience') ) : the_row();
+
+                            // Load sub field value.
+                            $company_name = get_sub_field('company_name');
+                            $occupation = get_sub_field('occupation');
+                            $duration = get_sub_field('duration');
+                            $work_description = get_sub_field('work_description');
+                            $accomplishments = get_sub_field('accomplishments');
+                            ?>              
                     <div class="col-lg-6 col-md-12 col-12">
                       <div class="content">
-                        <span class="subtitle">2007 - 2010</span>
-                        <h4 class="maintitle">Company Experience</h4>
+                        
+                        
                         <div class="experience-list">
-                          <div   class="resume-single-list aos-init aos-animate">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Personal Portfolio April Fools</h4>
-                                  <span>University of DVI (1997 - 2001)</span>
+
+
+                                <div class="resume-single-list aos-init aos-animate">
+                                    <div class="inner">
+                                        <div class="heading">
+                                            <div class="title">
+                                            <h4><?php echo $occupation;?></h4>
+                                            <span><?php echo $company_name;?></span>
+                                            </div>
+                                            <div class="date-of-time">
+                                            <span><?php echo $duration;?></span>
+                                            </div>
+                                        </div>
+                                    <?php if ($work_description) :?>
+                                        <p class="description"><?php echo $work_description;?>
+                                    <?php else: endif;?>
+                                    <ul>
+                                        <?php if( have_rows('accomplishments') ):
+                                            while( have_rows('accomplishments') ) : the_row();
+
+                                                // Get sub value.
+                                                $accomplishment = get_sub_field('accomplishment');?>
+                                                <li>
+                                                <?php echo $accomplishment;?>
+                                                </li>
+                                            <?php 
+                                            endwhile;
+                                        endif;?>
+                                    </ul>
+                                    </p>
+                                    </div>
                                 </div>
-                                <div class="date-of-time">
-                                  <span>4.30/5</span>
                                 </div>
-                              </div>
-                              <p class="description">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div   class="resume-single-list aos-init aos-animate">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4> Examples Of Personal Portfolio</h4>
-                                  <span>College of Studies (2000 - 2002)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.50/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div    class="resume-single-list aos-init aos-animate">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Tips For Personal Portfolio</h4>
-                                  <span>University of Studies (1997 - 2001)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.80/5</span>
-                                </div>
-                              </div>
-                              <p class="description"> If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
-                    
-                    
-                    <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                      <div class="content">
-                        <span class="subtitle">2007 - 2010</span>
-                        <h4 class="maintitle">Job Experience</h4>
-                        <div class="experience-list">
-                          <div   class="resume-single-list aos-init aos-animate">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Diploma in Web Development</h4>
-                                  <span>BSE In CSE (2004 - 2008)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.70/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div    class="resume-single-list aos-init aos-animate">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>The Personal Portfolio Mystery</h4>
-                                  <span>Job at Rainbow-Themes (2008 - 2016)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>4.95/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                          <div    class="resume-single-list aos-init aos-animate">
-                            <div class="inner">
-                              <div class="heading">
-                                <div class="title">
-                                  <h4>Diploma in Computer Science</h4>
-                                  <span>Works at Plugin Development (2016 - 2020)</span>
-                                </div>
-                                <div class="date-of-time">
-                                  <span>5.00/5</span>
-                                </div>
-                              </div>
-                              <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
+
+                            <?php endwhile;
+
+                        else :
+                      
+                        endif;?>
+
+
+
+    
                   </div>
                 </div>
               </div>
